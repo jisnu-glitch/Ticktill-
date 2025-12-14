@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Countdown timer</title>
+</head>
+<body>
+    <h1>Countdown timer</h1>
+    <div class="outer_border">
+
+        <div class="date-config">
+            <label for="targetDate">Countdown to</label>
+            <input type="datetime-local" id="targetDate" />
+            <button class="n1">start</button>
+        </div>
+        <div class="child">
+            
+            <div class="time-box">
+                <div class="number" id="daysvalue">0</div>
+                <div class="label">Days</div>
+            </div>
+            <div class="time-box">
+                <div class="number" id="hoursvalue">0</div>
+                <div class="label">hours</div>
+            </div>
+            <div class="time-box">
+                <div class="number" id="minutesvalue">0</div>
+                <div class="label">minutes</div>
+            </div>
+            <div class="time-box">
+                <div class="number" id="secondsvalue">0</div>
+                <div class="label">seconds</div>
+            </div>
+        </div>
+
+        <div class="child">
+            
+           <div class="btn"><button class="pause">Pause</button></div>
+           <div class="btn"><button class="reset">Reset</button></div>
+           
+        </div>
+
+    </div>
+
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
