@@ -85,7 +85,7 @@ Because the countdown is based on the current system time, it remains accurate e
 
 ## Author
 
-Tiago
+jisnu-glitch
 
 ---
 
